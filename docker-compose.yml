@@ -1,0 +1,8 @@
+version: '3.5'
+
+  opendkim:
+    image: veovis/opendkim
+    ports:
+      - 8891:8891
+    volumes:
+      - /docker/mail/conf/opendkim/opendkim.conf:/etc/opendkim/opendkim.conf:ro
