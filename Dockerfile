@@ -37,7 +37,7 @@ RUN set -xe; \
     apk add --no-cache opendkim; \
     apk del .build; \
     deluser --remove-home build; \
-    rm -R /app /tmp/community; \
+    rm -Rf /app /tmp/community /tmp/.git; \
     install -d -o opendkim -g opendkim /run/opendkim
 
 VOLUME /etc/opendkim
