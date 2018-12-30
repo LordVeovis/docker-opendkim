@@ -1,3 +1,5 @@
+![](https://img.shields.io/docker/automated/veovis/opendkim.svg) ![](https://img.shields.io/docker/pulls/veovis/opendkim.svg) ![](https://img.shields.io/microbadger/image-size/veovis%2Fopendkim.svg) ![](https://img.shields.io/docker/build/veovis/opendkim.svg) ![](https://img.shields.io/github/tag/LordVeovis/docker-opendkim.svg) ![](https://img.shields.io/github/license/LordVeovis/docker-opendkim.svg)
+
 # OpenDKIM
 
 An alpine-based docker container providing opendkim.
