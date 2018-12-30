@@ -1,10 +1,15 @@
-# Project Title
+# OpenDKIM
 
 An alpine-based docker container providing opendkim.
 
-## Getting Started
+## Details
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This container provides opendkim linked with opendbx. This will allow using opendkim with private DKIM keys stored in a database.
+
+* OpenDKIM 2.10.3
+* Alpine 3.8.2
+* LibreSSL 2.7.4
+* libmilter 1.0.1
 
 ### Installing
 
