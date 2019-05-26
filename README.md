@@ -1,4 +1,4 @@
-[![](https://img.shields.io/docker/pulls/veovis/opendkim.svg)](https://hub.docker.com/r/veovis/opendkim) ![](https://img.shields.io/microbadger/image-size/veovis%2Fopendkim.svg) [![](https://img.shields.io/github/tag/LordVeovis/docker-opendkim.svg)](https://github.com/LordVeovis/docker-opendkim/tags) [![](https://img.shields.io/github/license/LordVeovis/docker-opendkim.svg)](https://github.com/LordVeovis/docker-opendkim/blob/master/LICENSE)
+[![](https://img.shields.io/docker/cloud/build/veovis/opendkim.svg)](https://hub.docker.com/r/veovis/opendkim/builds) [![](https://img.shields.io/docker/pulls/veovis/opendkim.svg)](https://hub.docker.com/r/veovis/opendkim) ![](https://img.shields.io/microbadger/image-size/veovis%2Fopendkim.svg) [![](https://img.shields.io/github/tag/LordVeovis/docker-opendkim.svg)](https://github.com/LordVeovis/docker-opendkim/tags) [![](https://img.shields.io/github/license/LordVeovis/docker-opendkim.svg)](https://github.com/LordVeovis/docker-opendkim/blob/master/LICENSE)
 
 # OpenDKIM
 
