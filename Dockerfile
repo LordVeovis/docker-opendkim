@@ -1,4 +1,4 @@
-FROM alpine:3.9 as build
+FROM alpine:3.10 as build
 
 # preparing the workspace
 RUN set -xe; \
@@ -46,7 +46,7 @@ RUN set -xe; \
     sudo -u build abuild checksum && sudo -u build abuild -r
 
 
-FROM alpine:3.9
+FROM alpine:3.10
 
 COPY --from=build /home/build/packages/app /tmp/pkgs
 COPY --from=build /etc/apk/keys/build* /etc/apk/keys/
