@@ -9,8 +9,8 @@ An alpine-based docker container providing opendkim.
 This container provides opendkim linked with opendbx. This will allow using opendkim with private DKIM keys stored in a database.
 
 * OpenDKIM 2.10.3
-* Alpine 3.10
-* OpenDBX 1.4.5
+* Alpine 3.13
+* OpenDBX 1.4.6
 * OpenSSL 1.1.1
 * libmilter 1.0.2
 

@@ -1,9 +1,9 @@
-FROM alpine:3.10 as build
+FROM alpine:3.13 as build
 
 # preparing the workspace
 RUN set -xe; \
     apk update; \
-    apk add --virtual .build alpine-sdk git
+    apk add --virtual .build alpine-sdk git sudo
 
 RUN set -xe; \
     adduser -D build; \
@@ -28,7 +28,7 @@ RUN set -xe; \
     sudo -u build git remote add origin -f git://git.alpinelinux.org/aports; \
     sudo -u build git config core.sparsecheckout true; \
     echo "community/opendkim/*" >> .git/info/sparse-checkout; \
-    sudo -u build git pull origin 3.9-stable
+    sudo -u build git pull origin 3.13-stable
 
 # patching opendkim
 RUN set -xe; \
@@ -46,7 +46,7 @@ RUN set -xe; \
     sudo -u build abuild checksum && sudo -u build abuild -r
 
 
-FROM alpine:3.10
+FROM alpine:3.13
 
 COPY --from=build /home/build/packages/app /tmp/pkgs
 COPY --from=build /etc/apk/keys/build* /etc/apk/keys/

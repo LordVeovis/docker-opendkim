@@ -1,6 +1,6 @@
 # Maintainer: Veovis <veovis@kveer.fr>
 pkgname=opendbx
-pkgver=1.4.5
+pkgver=1.4.6
 pkgrel=0
 pkgdesc="OpenDBX - A database abstraction layer"
 url="https://www.linuxnetworks.de/doc/index.php/OpenDBX"
